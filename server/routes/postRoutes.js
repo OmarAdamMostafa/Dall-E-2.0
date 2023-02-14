@@ -2,7 +2,7 @@ import express from 'express';
 import * as dotenv from 'dotenv';
 import { v2 as cloudinary } from 'cloudinary';
 
-import post from '../mongoDB/models/post.js.js';
+import post from '../mongoDB/models/post.js';
 
 dotenv.config();
 
